@@ -2,7 +2,7 @@
 
 该项目是基于 **南京理工大学编译原理课程作业** 实现的, 非常感谢教学团队的指导！
 
-项目中 [Executable Files](./Executable Files) 文件夹内为可执行文件，[Source Files](./Source Files) 文件夹内为源文件。该项目编译环境如下：
+项目中 [ExecutableFiles](ExecutableFiles) 文件夹内为可执行文件，[SourceFiles](SourceFiles) 文件夹内为源文件。该项目编译环境如下：
 
 ## 编译环境
 
