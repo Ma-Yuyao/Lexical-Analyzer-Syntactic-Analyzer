@@ -1,4 +1,4 @@
-# Lexical-Analyzer And Phaser-Analyzer （词法分析器和语法分析器）
+# Lexical-Analyzer And Syntactic-Analyzer （词法分析器和语法分析器）
 
 该项目是基于 **南京理工大学编译原理课程作业** 实现的, 非常感谢教学团队的指导！
 
@@ -97,3 +97,73 @@ KEYWORD.txt中定义了该语言的关键字。其文件内容如下例：
 分析的结果会保存一份到 *"./OUTPUT.txt"* ，如下图：
 
 ![OUTPUT.txt](img/OUTPUT_txt.png)
+
+## Task 2: Syntactic-Analyzer（语法分析器）
+
+### 一、任务
+
+Task 2: Create a phaser analysis program, which uses LL(1) method or LR(1) method.     
+
+The inputs of the program are a text document including a set of productions of the 2º  grammar (context free grammar) and the token table generated by Task 1.
+
+The output of the  program is YES or NO. i.e., the source code string accords with this 2º grammar or the source  code string doesn’t accord with this 2º  grammar.  
+
+任务2：创建一个使用LL（1）方法或LR（1）方法的语法分析程序。
+
+程序的输入是一个文本文件，包括一套2º语法（上下文无关的语法）产品和任务1生成的令牌表。
+
+程序的输出为是或否。 即符合此2º语法的源代码字符串或不符合此2º语法的源代码字符串。
+
+### 二、实现思路
+
+我选择分析的是 **LR(1)型文法**。
+
+实现思路是根据书本中的**LR(1)**文法实现方法。简单来说就是如下流程：1. 构造LR(1)项目集族 → 2. 构造LR(1)分析表 → 3. 进行LR(1)分析。
+
+### 三、设计实现
+
+该语法分析器需要提供4个TXT文件，其内容和作用分别如下：
+
+#### 1.语法非终结符.txt
+
+该txt内容为用户定义的语法的**语法非终结符**，例如：
+
+![Grammatical-non-terminal.txt](img/Grammatical-non-terminal.png)
+
+#### 2.语法输入.txt
+
+该txt内容为用户定义的语法的**语法输入**，例如：
+
+![Grammatical-input.txt](img/Grammatical-input.png)
+
+#### 3.语法文法.txt
+
+该txt内容为用户定义的语法的**语法文法**，例如：
+
+![Grammatical-gramma.txt](img/Grammatical-gramma.png)
+
+#### 4.语法终结符.txt
+
+该txt内容为用户定义的语法的**语法终结符**，例如：
+
+![Grammar-terminator.txt](img/Grammar-terminator.png)
+
+注：EXE文件的目录中一定要有以上四个文件，不然运行会提示未找到XX文件，无法继续分析。其文件目录应如下图所示：
+
+![PhaserCompletedFiles](img/PhaserCompletedFiles)
+
+### 四、运行结果
+
+1. 所输入的**语法文法构造的项目集**如下：
+
+![ItemSet](img/ItemSet.png)
+
+2. 所构造出的**LR(1)分析表**如下：
+
+![LR(1)AnalysisTable](img/LR(1)AnalysisTable.png)
+
+3. 输入的文法和分析过程如下：
+
+最终得到结果——分析成功。
+
+![PhaserResult](img/PhaserResult.png)
