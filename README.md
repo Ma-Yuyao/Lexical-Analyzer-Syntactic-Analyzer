@@ -98,6 +98,8 @@ KEYWORD.txt中定义了该语言的关键字。其文件内容如下例：
 
 ![OUTPUT.txt](img/OUTPUT_txt.png)
 
+
+
 ## Task 2: Syntactic-Analyzer（语法分析器）
 
 ### 一、任务
