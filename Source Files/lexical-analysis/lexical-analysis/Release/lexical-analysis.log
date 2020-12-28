@@ -1,0 +1,16 @@
+﻿  stdafx.cpp
+  lexical-analysis.cpp
+lexical-analysis.cpp(41): warning C4018: “<”: 有符号/无符号不匹配
+lexical-analysis.cpp(113): warning C4018: “<”: 有符号/无符号不匹配
+lexical-analysis.cpp(144): warning C4018: “<”: 有符号/无符号不匹配
+lexical-analysis.cpp(147): warning C4018: “<”: 有符号/无符号不匹配
+lexical-analysis.cpp(164): warning C4018: “<”: 有符号/无符号不匹配
+lexical-analysis.cpp(372): warning C4018: “<”: 有符号/无符号不匹配
+lexical-analysis.cpp(382): warning C4018: “<”: 有符号/无符号不匹配
+lexical-analysis.cpp(384): warning C4018: “<”: 有符号/无符号不匹配
+lexical-analysis.cpp(395): warning C4018: “<”: 有符号/无符号不匹配
+lexical-analysis.cpp(402): warning C4018: “<”: 有符号/无符号不匹配
+  正在生成代码
+  All 647 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  lexical-analysis.vcxproj -> C:\Users\Tom\Desktop\编译原理\My编译器-test2(include TIME)\lexical-analysis\Release\lexical-analysis.exe

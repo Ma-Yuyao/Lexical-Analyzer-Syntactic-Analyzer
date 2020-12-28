@@ -1,0 +1,5 @@
+O operator
+I identifier
+A const
+L limiter
+K keyword

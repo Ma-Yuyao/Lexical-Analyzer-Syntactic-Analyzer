@@ -1,0 +1,26 @@
+2018年5月21日8时3分34秒
+# ---> limiter
+include ---> keyword
+< ---> limiter
+iostream ---> identifier
+> ---> limiter
+using ---> keyword
+namespace ---> keyword
+std ---> identifier
+; ---> limiter
+int ---> keyword
+main ---> identifier
+( ---> limiter
+) ---> limiter
+{ ---> limiter
+int ---> keyword
+i ---> identifier
+= ---> operator
+1 ---> const
+; ---> limiter
+float ---> keyword
+b ---> identifier
++ ---> operator
+c ---> identifier
+; ---> limiter
+} ---> limiter

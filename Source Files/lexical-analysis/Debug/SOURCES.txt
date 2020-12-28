@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int i = 1;
+    float b = 6.66;
+    float c = 2;
+    float d = b * c;
+    return 0;
+}

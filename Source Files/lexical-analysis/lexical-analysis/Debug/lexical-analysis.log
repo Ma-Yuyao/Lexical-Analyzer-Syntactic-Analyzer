@@ -1,0 +1,12 @@
+﻿  lexical-analysis.cpp
+c:\users\tom\desktop\编译原理\my编译器-test1 - 副本\lexical-analysis\lexical-analysis\lexical-analysis.cpp(41): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\tom\desktop\编译原理\my编译器-test1 - 副本\lexical-analysis\lexical-analysis\lexical-analysis.cpp(113): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\tom\desktop\编译原理\my编译器-test1 - 副本\lexical-analysis\lexical-analysis\lexical-analysis.cpp(144): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\tom\desktop\编译原理\my编译器-test1 - 副本\lexical-analysis\lexical-analysis\lexical-analysis.cpp(147): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\tom\desktop\编译原理\my编译器-test1 - 副本\lexical-analysis\lexical-analysis\lexical-analysis.cpp(164): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\tom\desktop\编译原理\my编译器-test1 - 副本\lexical-analysis\lexical-analysis\lexical-analysis.cpp(366): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\tom\desktop\编译原理\my编译器-test1 - 副本\lexical-analysis\lexical-analysis\lexical-analysis.cpp(376): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\tom\desktop\编译原理\my编译器-test1 - 副本\lexical-analysis\lexical-analysis\lexical-analysis.cpp(378): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\tom\desktop\编译原理\my编译器-test1 - 副本\lexical-analysis\lexical-analysis\lexical-analysis.cpp(389): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\tom\desktop\编译原理\my编译器-test1 - 副本\lexical-analysis\lexical-analysis\lexical-analysis.cpp(396): warning C4018: “<”: 有符号/无符号不匹配
+  lexical-analysis.vcxproj -> C:\Users\Tom\Desktop\编译原理\My编译器-test1 - 副本\lexical-analysis\Debug\lexical-analysis.exe
